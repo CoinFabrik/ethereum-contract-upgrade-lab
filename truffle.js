@@ -12,7 +12,10 @@ module.exports = {
   deploy: [
     "MetaCoin",
     "ConvertLib",
-    "Registry"
+    "Registry",
+    "mad-science/Upgradeable",
+    "mad-science/Dispatcher",
+    "mad-science/Example"
   ],
   rpc: {
     host: "localhost",
