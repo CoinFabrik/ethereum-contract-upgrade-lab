@@ -1,3 +1,5 @@
+import "./Upgradeable.sol";
+
 /**
  * The dispatcher is a minimal 'shim' that dispatches calls to a targeted
  * contract. Calls are made using 'delegatecall', meaning all storage and value

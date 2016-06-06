@@ -1,3 +1,4 @@
+import "./Upgradeable.sol";
 
 contract Example is Upgradeable {
     uint _value;
